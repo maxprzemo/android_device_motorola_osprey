@@ -1,0 +1,3 @@
+add_lunch_combo pac_osprey-user
+add_lunch_combo pac_osprey-userdebug
+add_lunch_combo pac_osprey-eng
