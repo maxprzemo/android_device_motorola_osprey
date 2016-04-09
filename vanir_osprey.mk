@@ -1,5 +1,7 @@
 # To use this file, add a line local_manifest.xml
-# <copyfile src="device/motorola/osprey/vanir_osprey.mk" dest="vendor/vanir/products/vanir_osprey.mk" />
+#   <project name="maxprzemo/android_device_motorola_osprey" path="device/motorola/osprey" remote="github" revision="vanirAOSP" >
+#     <copyfile src="vanir_osprey.mk" dest="vendor/vanir/products/vanir_osprey.mk" />
+#   </project>
 
 # Release name
 PRODUCT_RELEASE_NAME := osprey
