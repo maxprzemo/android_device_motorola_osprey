@@ -37,9 +37,6 @@ ENABLE_GCCONLY := true
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
-# Rom Toolchain
-TARGET_GCC_VERSION_EXP := 4.9
-
 # Kernel
 TARGET_KERNEL_CONFIG := osprey_defconfig
 
